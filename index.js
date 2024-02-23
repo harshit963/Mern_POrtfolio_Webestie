@@ -7,9 +7,9 @@ const path = require("path");
 const hbs = require("hbs");
 
 // Set path
-const staticPath = path.join(__dirname,"../public");
-const partials = path.join(__dirname, "../templates/partials");
-const views = path.join(__dirname, "../templates/views");
+const staticPath = path.join(__dirname,"/public");
+const partials = path.join(__dirname, "/templates/partials");
+const views = path.join(__dirname, "/templates/views");
 
 app.set("view engine", "hbs");
 app.set('views', views);
